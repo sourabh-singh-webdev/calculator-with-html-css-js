@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator with html css and javascript</title>
+    <link rel = 'stylesheet' href="index.css">
+
+    
+</head>
+<body>
+<div class="container">
+    <h4 align="center">Calculator with javascript</h4>
+    <form name="forms" >
+        <input type="text" class="same" name = "dashboard" class="">
+        <br>
+
+        <input type="button" value="1" onclick="forms.dashboard.value += '1'">
+        <input type="button" value="2" onclick="forms.dashboard.value += '1'">
+        <input type="button" value="3" onclick="forms.dashboard.value += '1'">
+
+        <br>
+
+        <input type="button" value="4" onclick="forms.dashboard.value += '1'">
+        <input type="button" value="5" onclick="forms.dashboard.value += '5'">
+        <input type="button" value="6" onclick="forms.dashboard.value += '6'">
+
+        <br>
+
+        <input type="button" value="7" onclick="forms.dashboard.value += '7'">
+        <input type="button" value="8" onclick="forms.dashboard.value += '8'">
+        <input type="button" value="9" onclick="forms.dashboard.value += '9'">
+
+        <br>
+
+        <input type="button" value="/" onclick="forms.dashboard.value += '/'">
+        <input type="button" value="0" onclick="forms.dashboard.value += '0'">
+        <input type="button" value="=" onclick="forms.dashboard.value = eval(forms.dashboard.value)">
+
+        <br>
+        <input type="button" value="+" onclick="forms.dashboard.value += '+'">
+        <input type="button" value="-" onclick="forms.dashboard.value += '-'">
+        <input type="button" value="*" onclick="forms.dashboard.value += '*'">
+
+        <br>
+        <input type="button" value="Clear all " class="same" onclick="forms.dashboard.value = '' ">
+        
+
+        
+        
+
+    </form>
+</div>
+    
+</body>
+</html>

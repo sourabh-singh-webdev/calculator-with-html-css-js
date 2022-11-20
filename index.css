@@ -1,0 +1,11 @@
+.container {
+    border: 5px solid black;
+}
+
+.same {
+    width : 200px;
+}
+
+input {
+    width: 60px;
+}
