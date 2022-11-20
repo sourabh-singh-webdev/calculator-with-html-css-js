@@ -1,11 +1,37 @@
 .container {
     border: 5px solid black;
+    text-align: center;
+    width: 300px;
+    background-color: red;
+    margin: auto;
+    
+    
 }
 
 .same {
     width : 200px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 35px;
 }
 
 input {
-    width: 60px;
+    width: 66px;
+    margin: 4px 4px;
 }
+
+.form-container {
+    align-items: center;
+    
+
+}
+
+body {
+    text-align: center;
+    align-items: center;
+}
+
+input:hover {
+    background-color: grey;
+}
+
